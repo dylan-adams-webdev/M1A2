@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Dylan Adams">
+        <title>Loan Details | {%NAME%}</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                max-width: 800px;
+                margin: auto;
+            }
+
+            dt,
+            dd {
+                display: block;
+                margin: 0;
+            }
+
+            dt {
+                font-weight: bold;
+            }
+
+            dd {
+                padding: 0;
+                margin-bottom: 15px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Loan Details for {%NAME%}</h1>
+        <dl>
+            <dt>ID</dt>
+            <dd>{%ID%}</dd>
+            <dt>Name</dt>
+            <dd>{%NAME%}</dd>
+            <dt>Phone Number</dt>
+            <dd>{%PHONE%}</dd>
+            <dt>Address</dt>
+            <dd>{%ADDRESS%}</dd>
+            <dt>Loan Amount</dt>
+            <dd>{%AMOUNT%}</dd>
+            <dt>Interest</dt>
+            <dd>{%INTEREST%}</dd>
+            <dt>Loan Term in Years</dt>
+            <dd>{%LOANTERM%}</dd>
+            <dt>Loan Type</dt>
+            <dd>{%TYPE%}</dd>
+            <dt>Description</dt>
+            <dd>{%DESCRIPTION%}</dd>
+            <dt>Calculated Total Amount</dt>
+            <dd>{%CALCULATED%}</dd>
+        </dl>
+    </body>
+
+</html>

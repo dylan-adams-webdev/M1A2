@@ -1,0 +1,57 @@
+[
+    {
+        "id":0,
+        "customerName": "Jackson, Michael",
+        "phoneNumber": "1112223333",
+        "address": "123 1st St",
+        "loanAmount": 3500,
+        "interest": 0.08,
+        "loanTermYears": 5,
+        "loanType": "personal",
+        "description": "personal small loan"
+    },
+    {
+        "id":1,
+        "customerName": "Keys, Alicia",
+        "phoneNumber": "2223334444",
+        "address": "234 2nd St",
+        "loanAmount": 5000,
+        "interest": 0.09,
+        "loanTermYears": 3,
+        "loanType": "business",
+        "description": "small business loan"
+    },
+    {
+        "id":2,
+        "customerName": "Swift, Taylor",
+        "phoneNumber": "3334445555",
+        "address": "345 3rd St",
+        "loanAmount": 8500,
+        "interest": 0.03,
+        "loanTermYears": 5,
+        "loanType": "personal",
+        "description": "small personal loan"
+    },
+    {
+        "id":3,
+        "customerName": "Malone, Post",
+        "phoneNumber": "4445556666",
+        "address": "456 4th St",
+        "loanAmount": 5500,
+        "interest": 0.08,
+        "loanTermYears": 8,
+        "loanType": "business",
+        "description": "small business loan"
+    },
+    {
+        "id":4,
+        "customerName": "Wayne, John",
+        "phoneNumber": "5556667777",
+        "address": "567 6th Ave",
+        "loanAmount": 2000,
+        "interest": 0.03,
+        "loanTermYears": 6,
+        "loanType": "personal",
+        "description": "personal small loan"
+    }
+]
